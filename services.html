@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Z&Z Limo Inc. - Premium Limousine Services</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Loading Screen -->
+    <div id="loader" class="loader">
+        <div class="loader-content">
+            <div class="loader-logo">Z&Z</div>
+            <div class="loader-text">LIMO INC.</div>
+        </div>
+    </div>
+
+    <!-- Particle Background -->
+    <canvas id="particleCanvas"></canvas>
+
+    <!-- Header & Navigation -->
+    <header class="header">
+        <div class="header-content">
+            <div class="logo">
+                <div class="logo-icon">◆</div>
+                <div class="logo-text">Z&Z Limo Inc.</div>
+            </div>
+            
+            <nav class="navbar">
+                <a href="index.html" class="nav-link">Home</a>
+                <a href="#services" class="nav-link">Services</a>
+                <a href="#about" class="nav-link">About</a>
+                <a href="#contact" class="nav-link">Contact</a>
+            </nav>
+
+            <button class="menu-toggle" id="menuToggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </header>
+
+    <!-- Mobile Menu -->
+    <nav class="mobile-menu" id="mobileMenu">
+        <a href="#home" class="mobile-nav-link">Home</a>
+        <a href="#services" class="mobile-nav-link">Services</a>
+        <a href="#about" class="mobile-nav-link">About</a>
+        <a href="#contact" class="mobile-nav-link">Contact</a>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1 class="hero-title">
+                <span class="line">Luxury</span>
+                <span class="line">Transportation</span>
+                <span class="line">Experience</span>
+            </h1>
+            <p class="hero-subtitle">Experience elegance and sophistication with every ride</p>
+            <button class="cta-button">Book Your Ride</button>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services">
+        <div class="section-container">
+            <h2 class="section-title">Our Services</h2>
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon">✈</div>
+                    <h3>Airport Transfers</h3>
+                    <p>Professional pickup and drop-off service to and from all major airports</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">💼</div>
+                    <h3>Corporate Events</h3>
+                    <p>Reliable transportation for business meetings and corporate gatherings</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">💒</div>
+                    <h3>Weddings</h3>
+                    <p>Make your special day unforgettable with our premium wedding services</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">🎉</div>
+                    <h3>Special Events</h3>
+                    <p>Perfect for birthdays, anniversaries, and all your celebrations</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">🌃</div>
+                    <h3>Night Out</h3>
+                    <p>Safe and stylish transportation for your nights on the town</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">🏨</div>
+                    <h3>Hotel & Tours</h3>
+                    <p>Explore the city in comfort with our guided tour services</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="section-container">
+            <h2 class="section-title">About Z&Z Limo Inc.</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>With over 15 years of experience, Z&Z Limo Inc. has established itself as the premier choice for luxury transportation. Our commitment to excellence, professionalism, and customer satisfaction sets us apart.</p>
+                    <p>We pride ourselves on maintaining a fleet of pristine, well-maintained vehicles and employing highly trained, courteous drivers who understand that luxury is in the details.</p>
+                    <div class="about-stats">
+                        <div class="stat">
+                            <div class="stat-number">15+</div>
+                            <div class="stat-label">Years Experience</div>
+                        </div>
+                        <div class="stat">
+                            <div class="stat-number">10K+</div>
+                            <div class="stat-label">Happy Clients</div>
+                        </div>
+                        <div class="stat">
+                            <div class="stat-number">50+</div>
+                            <div class="stat-label">Premium Vehicles</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+<!-- Contact Section -->
+<section id="contact" class="contact">
+  <div class="section-container">
+    <h2 class="section-title text-center">Get In Touch</h2>
+
+    <div class="contact-wrapper">
+      <!-- Left: Contact Info -->
+      <div class="contact-info">
+        
+        <div class="info-item">
+          <div class="info-icon"><i class="fa-solid fa-phone-volume"></i></div>
+          <div>
+            <h4>Phone</h4>
+            <p>(555) 123-4567</p>
+          </div>
+        </div>
+
+        <div class="info-item">
+          <div class="info-icon"><i class="fa-solid fa-envelope-circle-check"></i></div>
+          <div>
+            <h4>Email</h4>
+            <p>info@zzlimoinc.com</p>
+          </div>
+        </div>
+
+        <div class="info-item">
+          <div class="info-icon"><i class="fa-solid fa-location-dot"></i></div>
+          <div>
+            <h4>Location</h4>
+            <p>123 Luxury Blvd, New York, USA</p>
+          </div>
+        </div>
+
+        <!-- Social Icons -->
+        <div class="social-links">
+          <a href="https://www.facebook.com/share/1CXZQ2M9rK/" class="social-link" style="color:#1877F2;"><i class="fab fa-facebook-f"></i></a>
+          <a href="#" class="social-link" style="color:#0A66C2;"><i class="fab fa-linkedin-in"></i></a>
+          <a href="https://www.instagram.com/iamhsr1/" class="social-link" style="color:#E1306C;" target="_blank"><i class="fab fa-instagram"></i></a>
+          <a href="#" class="social-link" style="color:#FF0000;"><i class="fab fa-youtube"></i></a>
+        </div>
+
+      </div>
+
+      <!-- Right: Contact Form -->
+      <form class="contact-form">
+        <input type="text" placeholder="Your Name" required>
+        <input type="email" placeholder="Your Email" required>
+        <textarea placeholder="Your Message" rows="5" required></textarea>
+        <button type="submit" class="submit-button">Send Message</button>
+      </form>
+    </div>
+  </div>
+</section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-content">
+            <p>&copy; 2025 Z&Z Limo Inc. All rights reserved.</p>
+        </div>
+    </footer>
+   <!-- Floating WhatsApp Button -->
+<a href="https://wa.me/1234567890" 
+   class="whatsapp-float" 
+   target="_blank" 
+   aria-label="Chat on WhatsApp">
+   <i class="fab fa-whatsapp"></i>
+</a>
+
+<!-- Floating WhatsApp CSS -->
+<style>
+.whatsapp-float {
+  position: fixed;
+  width: 65px;
+  height: 65px;
+  bottom: 25px;
+  right: 25px;
+  background-color: #25D366;
+  color: #fff;
+  border-radius: 50%;
+  text-align: center;
+  font-size: 32px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+  z-index: 9999;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.3s ease-in-out;
+  animation: pulse 2s infinite;
+}
+
+/* Hover effect */
+.whatsapp-float:hover {
+  background-color: #1ebd5a;
+  transform: scale(1.15);
+  box-shadow: 0 6px 15px rgba(0,0,0,0.4);
+}
+
+/* Pulse animation */
+@keyframes pulse {
+  0% { box-shadow: 0 0 0 0 rgba(37, 211, 102, 0.6); }
+  70% { box-shadow: 0 0 0 15px rgba(37, 211, 102, 0); }
+  100% { box-shadow: 0 0 0 0 rgba(37, 211, 102, 0); }
+}
+</style>
+
+   
+    <script src="script.js"></script>
+</body>
+</html>
